@@ -1,0 +1,79 @@
+.contact-section {
+  background-image: url(../img/contact-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10rem 0;
+}
+
+.contact {
+  background-color: #fff;
+  padding: 5rem;
+  max-width: 54rem;
+  /* height: ; */
+}
+
+.contact__head {
+  text-align: center;
+}
+
+.contact__head .heading-2 {
+}
+
+.contact__head .p-text {
+  font-size: 1.4rem;
+}
+
+.contact__body {
+}
+
+.form {
+}
+
+.first-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1.5rem;
+}
+
+.name,
+.email,
+.number,
+.message {
+  width: 100%;
+  padding: 0 0 1.5rem .5rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #c5c5c560;
+}
+
+.contact__btn {
+  text-align: center;
+}
+
+.contact__btn .btn {
+  background-color: var(--purple);
+  padding: 1.5rem 4rem;
+  color: #fff;
+  display: inline-block;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+.contact__btn .btn:hover{
+    background-color: var(--indigo);
+}
+
+.name {
+}
+
+.email {
+}
+
+.number {
+}
+
+.message {
+    height: 8rem;
+}

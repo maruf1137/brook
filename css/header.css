@@ -1,0 +1,283 @@
+/* ========================== */
+/* header start */
+/* ========================== */
+
+.header {
+  max-height: 100rem;
+  height: 120vh;
+  background-image: url(../img/bg-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* navigation */
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2.5rem 0;
+}
+
+.sticky {
+  background-color: #050505;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* logo area */
+.logo-box {
+  width: 17rem;
+  height: auto;
+  max-width: 100%;
+}
+
+.logo-box .logo {
+  height: auto;
+  width: 100%;
+}
+
+.logo-box .logo img {
+  height: auto;
+  width: 100%;
+}
+
+/* lniks area */
+.navigation {
+  display: flex;
+  grid-column-gap: 1.5rem;
+}
+
+.navigation__item {
+  padding: 1.2rem 2rem;
+  cursor: pointer;
+}
+
+.navigation__links {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+}
+
+.navigation__links::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0;
+  position: absolute;
+  left: auto;
+  right: 0;
+  background-color: #fff;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.navigation__links:hover::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+  z-index: 1;
+}
+
+.search-box {
+  cursor: pointer;
+}
+
+.search-box .search-icon {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+/* dropdown start */
+/* 
+.dropdown{
+}
+
+.drop-btn{
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.drop-content{
+  background-color: #1f1f1f;
+  padding: 1.5rem 10rem  1.5rem 2rem;
+  position: absolute;
+  transform: translateY(10rem);
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s;
+}
+
+.dropdown:hover .drop-content{
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.drop-item{
+  color: #fff;
+  display: block;
+  padding: 1.5rem 0;
+  position: relative;
+}
+
+.drop-item::after{
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0;
+  position: absolute;
+  left: auto;
+  right: 0;
+  background-color: #fff;
+  z-index: -1;
+  transition: all .4s;
+}
+.drop-item:hover::after{
+  width: 100%;
+  left: 0;
+  right: auto;
+  z-index: 1;
+} */
+
+/* header content */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.content {
+  color: #fff;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(max-content, min-content));
+  justify-content: center;
+}
+
+.hero-content {
+  font-size: 9rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 4rem;
+  padding: 0 2rem;
+  grid-column: 1/ -1;
+}
+
+.hero-sub {
+  font-size: 4rem;
+  font-weight: 400;
+  display: inline-block;
+  grid-column: 1/ -1;
+}
+
+/* mobile menu */
+
+.mobile-menu {
+  display: none;
+}
+
+.bar-icon {
+  position: fixed;
+  top: 2rem;
+  right: 3rem;
+  font-size: 4rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 7;
+}
+
+.show-nav .start__nav--btn {
+  display: none;
+}
+
+.close__nav--btn {
+  display: none;
+}
+
+.show-nav .close__nav--btn {
+  display: block;
+}
+
+/* search box */
+.search-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 40%;
+  background-color: #000;
+  transform: translateX(-100%);
+  transition: all 0.5s;
+  z-index: 8;
+}
+
+.search-page .search-nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  align-items: center;
+}
+
+.search-page .search-logo {
+  height: auto;
+  width: 15rem;
+}
+
+.search-page .search-logo img {
+  height: auto;
+  width: 100%;
+}
+
+.search-page .close-nav {
+  font-size: 2.8rem;
+  cursor: pointer;
+}
+
+.search-page .search-body {
+}
+
+.search-page .search-box {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 1px solid #fff;
+  align-items: center;
+}
+
+.search-page .search-input {
+  width: 100%;
+  height: 100%;
+  padding: 0.2rem 0 2rem 0.3rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+}
+
+.search-page .search {
+}
+
+.search-page .search-icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.search-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.699);
+  z-index: 7;
+  transform: translateX(-100%);
+}

@@ -1,0 +1,52 @@
+.design-section{
+    padding: 8rem 0;
+    background-color: #eeeeee;
+}
+
+.design{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 4rem 8rem;
+}
+
+.design__left{
+}
+
+.design__img{
+    height: 42.5rem;
+    width: 100%;
+}
+
+.design__img img{
+    height: 100%;
+    width: 100%;
+}
+
+.design__right{
+}
+
+.design__right .heading-2{
+    font-size: 4.2rem;
+    
+}
+
+.design__right .p-text{
+    font-size: 1.8rem;
+    line-height: 2;
+}
+
+.btn-design:link,
+.btn-design:visited{
+    background-color: var(--purple);
+    color: #fff;
+    transition: all .3s;
+}
+
+.btn-design:link:hover{
+    transform: translateY(-.5rem);
+}
+
+.btn-design:visited:hover{
+    transform: translateY(-.2rem);
+}

@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brook</title>
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/df45955d7c.js" crossorigin="anonymous"></script>
+    <!-- google  fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <!-- css style links -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/feature.css">
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="stylesheet" href="css/prodact.css">
+    <link rel="stylesheet" href="css/subbcribe.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/eyes.css">
+    <link rel="stylesheet" href="css/update.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- header  start -->
+    <header class="header" id="header">
+        <nav class="nav mobile-nav">
+            <div class="logo-box">
+                <div class="logo">
+                    <img src="img/logo-white.png" alt="logo">
+                </div>
+            </div>
+            <ul class="navigation">
+                <li class="navigation__item">
+                    <a href="#header" class="navigation__links" onclick="navBarClose()">home</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#about" class="navigation__links" onclick="navBarClose()">about</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__links" onclick="navBarClose()">portfolio</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#blog" class="navigation__links" navBarClose()">blog</a>
+                </li>
+                <!-- <li class="navigation__item">
+                    <a href="#" class="navigation__links" onclick="navBarClose()">about</a>
+                </li> -->
+                <li class="navigation__item">
+                    <a href="#contact" class="navigation__links contact-btn" onclick="navBarClose()">contact</a>
+                </li>
+            </ul>
+            <div class="search-box">
+                <div class="search-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="content">
+                <h1 class="hero-content heading-1">
+                    Fresh ideas & designs
+                </h1>
+                <h2 class="heading-2 hero-sub">
+                    Bringing the best experiences
+                </h2>
+            </div>
+        </div>
+
+        <!-- create mobile menu -->
+        <div class="mobile-menu">
+            <div class="bar-icon start__nav--btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="bar-icon close__nav--btn">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+
+        <!-- create search box -->
+        <div class="search-overlay"></div>
+        <div class="search-page">
+            <div class="search-nav mb-lg">
+                <div class="search-logo">
+                    <img src="img/brook-black.png" alt="search logo">
+                </div>
+                <div class="close-nav">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="search-body">
+                <form action="#" class="search-box">
+                    <input type="text" class="search-input" placeholder="enter search keyword...." name="search">
+                    <div for="search">
+                        <a href="#" class="search-icon" onclick="closeNav()">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                    <!-- <input type="submit" value=""> -->
+                </form>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- header end -->
+
+    <!-- feature section start -->
+    <section class="feature-section" id="about">
+        <div class="row">
+            <div class="feature">
+                <div class="left-content">
+                    <h2 class="heading-2 mb-hg">Features you will love</h2>
+                    <div class="feature-left-content">
+                        <div class="feature-left-item">
+                            <div class="icon-box">
+                                <svg class="icon-svg">
+                                    <use xlink:href="img/symbol-defs.svg#icon-infinite"></use>
+                                </svg>
+                            </div>
+                            <h3 class="headline heading-3">Digital marketing</h3>
+                            <p class="p-text feature-text">
+                                We conduct the marketing of products & services using latest digital technologies.
+                            </p>
+                        </div>
+
+                        <div class="feature-left-item">
+                            <div class="icon-box">
+                                <svg class="icon-svg">
+                                    <use xlink:href="img/symbol-defs.svg#icon-display"></use>
+                                </svg>
+                            </div>
+                            <h3 class="headline heading-3">Digital marketing</h3>
+                            <p class="p-text feature-text">
+                                We conduct the marketing of products & services using latest digital technologies.
+                            </p>
+                        </div>
+
+                        <div class="feature-left-item">
+                            <div class="icon-box">
+                                <svg class="icon-svg">
+                                    <use xlink:href="img/symbol-defs.svg#icon-basketball"></use>
+                                </svg>
+                            </div>
+                            <h3 class="headline heading-3">Digital marketing</h3>
+                            <p class="p-text feature-text">
+                                We conduct the marketing of products & services using latest digital technologies.
+                            </p>
+                        </div>
+
+                        <div class="feature-left-item">
+                            <div class="icon-box">
+                                <svg class="icon-svg">
+                                    <use xlink:href="img/symbol-defs.svg#icon-sports_volleyball"></use>
+                                </svg>
+                            </div>
+                            <h3 class="headline heading-3">Digital marketing</h3>
+                            <p class="p-text feature-text">
+                                We conduct the marketing of products & services using latest digital technologies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-content">
+                    <figure class="right-img">
+                        <img src="img/feature-img.png" alt="feature image">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- feature section end -->
+
+    <!-- design section start -->
+    <section class="design-section">
+        <div class="row">
+            <div class="design">
+                <div class="design__left">
+                    <figure class="design__img">
+                        <img src="img/graphic.png" alt="design image">
+                    </figure>
+                </div>
+                <div class="design__right">
+                    <h2 class="heading-2 mb-lg">Professional design</h2>
+                    <p class="p-text mb-hg">
+                        Finding design inspiration for your next landing page can be tough. We've selected the best
+                        pages and offered a wide range of predefined elements.
+                    </p>
+                    <a href="#" class="btn btn-design">download now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- design section end -->
+
+    <!-- prodact section  start -->
+    <section class="prodact-section">
+        <div class="prodact">
+            <div class="prodact__item" data-img="img/bg-image-1.jpg">
+                <div class="prodact__content">
+                    <figure class="prodact__img mb-sm">
+                        <img src="img/search-icon.png" alt="search">
+                    </figure>
+                    <div class="prodact__heading mb-sm">Planning Construction</div>
+                    <p class="p-text">
+                        Prepare a good construction plan to develop the budget and schedule the work
+                    </p>
+                </div>
+                <div class="prodact__details">
+                    <a href="#" class="details__btn">more details</a>
+                    <svg class="prodact__arrow">
+                        <use xlink:href="img/symbol-defs.svg#icon-long-arrow-right"></use>
+                    </svg>
+                    <!-- <div class="prodact__arrow">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="prodact__item" data-img="img/bg-image-2.jpg">
+                <div class="prodact__content">
+                    <figure class="prodact__img mb-sm">
+                        <img src="img/prodact-2.png" alt="search">
+                    </figure>
+                    <div class="prodact__heading mb-sm">Planning Construction</div>
+                    <p class="p-text">
+                        Prepare a good construction plan to develop the budget and schedule the work
+                    </p>
+                </div>
+                <div class="prodact__details">
+                    <a href="#" class="details__btn">more details</a>
+                    <svg class="prodact__arrow">
+                        <use xlink:href="img/symbol-defs.svg#icon-long-arrow-right"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="prodact__item" data-img="img/bg-image-3.jpg">
+                <div class="prodact__content">
+                    <figure class="prodact__img mb-sm">
+                        <img src="img/prodact-3.png" alt="search">
+                    </figure>
+                    <div class="prodact__heading mb-sm">Planning Construction</div>
+                    <p class="p-text">
+                        Prepare a good construction plan to develop the budget and schedule the work
+                    </p>
+                </div>
+                <div class="prodact__details">
+                    <a href="#" class="details__btn">more details</a>
+                    <svg class="prodact__arrow">
+                        <use xlink:href="img/symbol-defs.svg#icon-long-arrow-right"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="prodact__item" data-img="img/bg-image-4.jpg">
+                <div class="prodact__content">
+                    <figure class="prodact__img mb-sm">
+                        <img src="img/prodact-4.png" alt="search">
+                    </figure>
+                    <div class="prodact__heading mb-sm">Planning Construction</div>
+                    <p class="p-text">
+                        Prepare a good construction plan to develop the budget and schedule the work
+                    </p>
+                </div>
+                <div class="prodact__details">
+                    <a href="#" class="details__btn">more details</a>
+                    <svg class="prodact__arrow">
+                        <use xlink:href="img/symbol-defs.svg#icon-long-arrow-right"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- prodact section  end -->
+
+    <!-- subscribe section start -->
+    <section class="subscribe__section">
+        <div class="subdcribe__bg">
+            <div class="background">subscribe</div>
+        </div>
+        <div class="row">
+
+            <div class="subscribe">
+                <div class="subscribe__left">
+                    <p>Sign up for news updates from us.</p>
+                </div>
+                <div class="subscribe__right">
+                    <form action="#" class="form">
+                        <input type="email" id="" name="email" placeholder="Your e-mail" class="email">
+                        <input type="submit" class="btn-submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- subscribe section end -->
+
+    <!-- home section -->
+    <section class="home-section">
+        <div class="home">
+            <div class="home__left">
+                <figure class="home__left-image">
+                    <img src="img/home-img.jpg" alt="">
+                </figure>
+            </div>
+            <div class="home__right">
+                <h2 class="heading-2 mb-lg">
+                    Bringing People and Homes Together for Over 50 Years
+                </h2>
+                <h3 class="heading-3 home-heading-3 mb-sm">Home decoration.</h3>
+                <p class="p-text mb-lg">
+                    Add an extra-special touch to décor with this charming lantern that features sleek angles and a
+                    modern-edge design. A must-have for your house this holiday. Buy now to get a special discount for
+                    early bird order.
+                </p>
+                <div class="line-break"></div>
+                <div class="collapse__container">
+                    <div class="collapse__item">
+                        <div class="collapse__head">
+                            <h4 class="heading-4">
+                                High quality materials
+                            </h4>
+                            <div class="collapse__arrow">
+                                <i class="fas fa-sort-down"></i>
+                            </div>
+                        </div>
+                        <p class="p-text collapse__content">
+                            Lighting has the power to transform a room. From the way it casts a glow to the way it
+                            looks, there is a reason designers call it the jewelry of a room. Furthermore, lighting is
+                            probably the most easily recognizable and instantly iconic piece you can invest on.
+                        </p>
+                    </div>
+                    <div class="collapse__item">
+                        <div class="collapse__head">
+                            <h4 class="heading-4">
+                                High quality materials
+                            </h4>
+                            <div class="collapse__arrow">
+                                <i class="fas fa-sort-down"></i>
+                            </div>
+                        </div>
+                        <p class="p-text collapse__content">
+                            Lighting has the power to transform a room. From the way it casts a glow to the way it
+                            looks, there is a reason designers call it the jewelry of a room. Furthermore, lighting is
+                            probably the most easily recognizable and instantly iconic piece you can invest on.
+                        </p>
+                    </div>
+                    <div class="collapse__item">
+                        <div class="collapse__head">
+                            <h4 class="heading-4">
+                                High quality materials
+                            </h4>
+                            <div class="collapse__arrow">
+                                <i class="fas fa-sort-down"></i>
+                            </div>
+                        </div>
+                        <div class="collapse__content">
+                            <p class="p-text">
+                                Lighting has the power to transform a room. From the way it casts a glow to the way it
+                                looks, there is a reason designers call it the jewelry of a room. Furthermore, lighting
+                                is
+                                probably the most easily recognizable and instantly iconic piece you can invest on.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- eyes sction start -->
+    <section class="eys-section">
+        <div class="row">
+            <div class="eyes">
+                <div class="eyes__left">
+                    <h2 class="heading-2 mb-sm">Ease your cost of living.</h2>
+                    <p class="p-text mb-lg">
+                        Bring a touch of contemporary style to your abode with this gold-plated table lamp set. A
+                        gold-finished metal base down below offers a touch of glamour, while the white light brings
+                        harmony and comfort to your eyes.
+                    </p>
+                    <div class="clients">
+                        <div class="clients__peple">
+                            <div class="clients__icon">
+                                <!-- <i class="fas fa-users"></i> -->
+                                <img src="img/people_outline.svg" alt="people">
+                                <!-- <svg>
+                                    <use xlink:href="symbol-defs.svg#icon-group"></use>
+                                </svg> -->
+                            </div>
+                            <div class="clients__number">2034</div>
+                            <div class="clients__comment">Satisfied clients</div>
+                        </div>
+                        <div class="clients__eys">
+                            <div class="clients__icon">
+                                <img src="img/eye.svg" alt="eye">
+                            </div>
+                            <div class="clients__number">2034</div>
+                            <div class="clients__comment">Satisfied clients</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="eyes__right">
+                    <figure class="right__img">
+                        <img src="img/eys-img-1.jpg" alt="eyes image">
+                    </figure>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- syes section end -->
+
+    <!-- updates section start -->
+    <section class="update-section" id="blog">
+        <div class="row">
+            <div class="update__header">
+                <h2 class="heading-2">Blog Updates</h2>
+                <div class="all-post">
+                    <span class="view-text">View all posts</span>
+                    <span class="view-icon">
+                        <!-- <i class="fas fa-long-arrow-alt-right"></i> -->
+                        <img src="img/icon-arrow-down.svg" alt="">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="update">
+                <div class="update__item">
+                    <div class="update__image">
+                        <img src="img/update-img-1.jpg" alt="">
+                    </div>
+                    <div class="update__text">
+                        <div class="update__details">
+                            <div class="update__date">May 21, 2018</div>
+                            <div class="update__style">Life Style</div>
+                        </div>
+                        <div class="update__content">
+                            <h4 class="heading-4">Less Social Media, More Happiness</h4>
+                        </div>
+                    </div>
+                    <div class="update__btn">
+                        <a href="#" class="btn-text btn__update">see all</a>
+                    </div>
+                </div>
+
+                <div class="update__item">
+                    <div class="update__image">
+                        <img src="img/update-img-2.jpg" alt="">
+                    </div>
+                    <div class="update__text">
+                        <div class="update__details">
+                            <div class="update__date">May 21, 2018</div>
+                            <div class="update__style">Life Style</div>
+                        </div>
+                        <div class="update__content">
+                            <h4 class="heading-4">Less Social Media, More Happiness</h4>
+                        </div>
+                    </div>
+                    <div class="update__btn">
+                        <a href="#" class="btn-text btn__update">see all</a>
+                    </div>
+                </div>
+
+                <div class="update__item">
+                    <div class="update__image">
+                        <img src="img/update-img-1.jpg" alt="">
+                    </div>
+                    <div class="update__text">
+                        <div class="update__details">
+                            <div class="update__date">May 21, 2018</div>
+                            <div class="update__style">Life Style</div>
+                        </div>
+                        <div class="update__content">
+                            <h4 class="heading-4">Less Social Media, More Happiness</h4>
+                        </div>
+                    </div>
+                    <div class="update__btn">
+                        <a href="#" class="btn-text btn__update">see all</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- update section end -->
+
+    <!-- contact section start -->
+    <section class="contact-section" id="contact">
+        <div class="row">
+            <div class="contact">
+                <div class="contact__head">
+                    <h2 class="heading-2 mb-sm">Contact Us</h2>
+                    <p class="p-text mb-lg">
+                        For each project we establish relationships with partners.
+                    </p>
+                </div>
+                <div class="contact__body">
+                    <form action="#" class="form">
+                        <div class="first-col mb-sm">
+                            <input type="text" name="name" placeholder="name *" class="name" required>
+                            <input type="email" name="email" placeholder="email *" class="email" required>
+                        </div>
+                        <input type="number" name="number" placeholder="number" class="number mb-sm">
+                        <textarea name="message" id="" class="message mb-md" placeholder="message"></textarea>
+                        <div class="contact__btn">
+                            <input type="submit" value="submit" class="btn">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section end -->
+
+    <footer class="footer-section">
+        <div class="row">
+            <div class="footer">
+                <div class="first-col">
+                    <div class="footer__logo mb-sm">
+                        <img src="img/logo-white.png" alt="footer logo">
+                    </div>
+                    <div class="footer__text">
+                        <p class="p-text">
+                            Brook is a multi-purpose WordPress theme for big and small-sized businesses. Enjoy the
+                            theme's original design, functional features & responsive layouts.
+                        </p>
+                    </div>
+                </div>
+                <div class="second-col">
+                    <div class="second-col__head mb-md">
+                        <h4 class="heading-4">contact</h4>
+                    </div>
+                    <div class="second-col__body mb-sm">
+                        <div class="footer__email">
+                            mmaruf1137@gmail.com
+                        </div>
+                        <div class="footer__number">(+880)1951818525</div>
+                    </div>
+                    <div class="social mt-lg">
+                        <a href="#" class="social-icon facebook">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="#" class="social-icon twetter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-icon github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="third-col">
+                    <div class="third-col__head mb-md">
+                        <h4 class="heading-4">instagram</h4>
+                    </div>
+                    <div class="third-col__images">
+                        <figure class="third-col__img">
+                            <img src="img/footer-img-1.jpg" alt="footer image">
+                        </figure>
+                        <figure class="third-col__img">
+                            <img src="img/footer-img-2.jpg" alt="footer image">
+                        </figure>
+                        <figure class="third-col__img">
+                            <img src="img/footer-img-3.jpg" alt="footer image">
+                        </figure>
+                        <figure class="third-col__img">
+                            <img src="img/footer-img-4.jpg" alt="footer image">
+                        </figure>
+                        <figure class="third-col__img">
+                            <img src="img/footer-img-5.jpg" alt="footer image">
+                        </figure>
+                        <figure class="third-col__img">
+                            <img src="img/footer-img-6.jpg" alt="footer image">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

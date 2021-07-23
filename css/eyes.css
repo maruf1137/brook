@@ -1,0 +1,69 @@
+.eys-section{
+    padding: 10rem 0;
+}
+
+.eyes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 4rem;
+}
+
+.eyes__left{
+    text-align: left;
+}
+
+.eyes__left .heading-2{
+    font-size: 4.2rem;
+}
+
+.eyes__left .p-text{
+    font-size: 1.8rem;
+}
+
+.clients{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 4rem;
+}
+
+.clients__peple{
+
+}
+
+.clients__icon{
+    /* font-size: 7rem; */
+}
+
+.clients__icon img{
+    height: 6rem;
+    width: auto;
+}
+
+.clients__number{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.clients__comment{
+    font-size: 1.8rem;
+}
+
+.clients__eyes{
+    
+}
+
+.eyes__right{
+
+}
+
+.eyes__right .right__img{
+    height: 55rem;
+    width: 54rem;
+}
+
+.right__img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
